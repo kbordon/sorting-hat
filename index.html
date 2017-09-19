@@ -10,21 +10,26 @@
   <body>
     <div class="container">
       <h1>Sorting Survey</h1>
+
+      <form id="sortingForm">
+        <div class="form-group">
+          <p>Please check all that apply to your personality:</p>
+          <input type="checkbox" name="survey-question" value="griff">I am generally a happy person<br>
+          <input type="checkbox" name="survey-question" value="griff">I have very strong opinions<br>
+          <input type="checkbox" name="survey-question" value="huff">I am loyal to a fault<br>
+          <input type="checkbox" name="survey-question" value="huff">I am easy to get along with<br>
+          <input type="checkbox" name="survey-question" value="raven">I am adventurous<br>
+          <input type="checkbox" name="survey-question" value="raven">I love knowledge<br>
+          <input type="checkbox" name="survey-question" value="slyth">I am mean<br>
+          <input type="checkbox" name="survey-question" value="slyth">I like to cheat<br>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+
+      <span id="quizResponses">
+        <h2>You were sorted into:</h2>
+      </span>
     </div>
-    <form id="sortingForm">
-      <div class="form-group">
-        <p>Please check all that apply to your personality:</p>
-        <input type="checkbox" name="survey-question" value="griff">I am generally a happy person<br>
-        <input type="checkbox" name="survey-question" value="griff">I have very strong opinions<br>
-        <input type="checkbox" name="survey-question" value="huff">I am loyal to a fault<br>
-        <input type="checkbox" name="survey-question" value="huff">I am easy to get along with<br>
-        <input type="checkbox" name="survey-question" value="raven">I am adventurous<br>
-        <input type="checkbox" name="survey-question" value="raven">I love knowledge<br>
-        <input type="checkbox" name="survey-question" value="slyth">I am mean<br>
-        <input type="checkbox" name="survey-question" value="slyth">I like to cheat<br>
-      </div>
-      <button type="submit" class="btn">Submit</button>
-    </form>
 
   </body>
 </html>
